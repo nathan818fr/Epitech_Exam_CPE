@@ -1,0 +1,75 @@
+------------------- ******** -------------------
+
+Exercice 3 : ulstr
+_______________________
+Nom de l'executable     :       ulstr
+Nom du repertoire       :       ex_3
+Temps de realisation    :       15 minutes.
+Fonctions autorisees    :       my_putstr, write
+Makefile                :       oui
+
+
+	Ecrire un programme qui prend en parametre une chaine de caracteres,
+	qui transforme toutes les minuscules en majuscules et toutes les
+	majuscules en minuscules. Les autres caracteres restent inchanges.
+
+	Ce programme doit afficher le resultat sur la sortie standard suivi
+	d'un '\n'.
+
+	Le programme doit renvoyer un '\n' si il n'y a aucun parametre.
+
+
+Exemples:
+
+(jog@almarita)./ulstr "L'eSPrit nE peUt plUs pRogResSer s'Il staGne et sI peRsIsT
+ent VAnIte et auto-justification." | cat -e
+l'EspRIT Ne PEuT PLuS PrOGrESsER S'iL STAgNE ET Si PErSiStENT vaNiTE ET AUTO-JUS
+TIFICATION.$
+(jog@almarita)
+
+(jog@almarita)./ulstr "S'enTOuRer dE sECreT eSt uN sIGnE De mAnQuE De coNNaiSSanC
+e.  " | cat -e
+s'ENtoUrER De SecREt EsT Un SigNe dE MaNqUe dE COnnAIssANcE.  $
+
+(jog@almarita)./ulstr "3:21 Ba  tOut  moUn ki Ka di KE m'en Ka fe fot" | cat -e
+3:21 bA  ToUT  MOuN KI kA DI ke M'EN kA FE FOT$
+(jog@almarita)
+
+(jog@almarita)./ulstr | cat -e
+$
+-------------------------------------------------------------------------------
+Exercise 3 : ulstr
+_______________________
+Executable name         :   ulstr
+Directory name          :   ex_3
+Suggested time          :   15 minutes.
+Allowed functions       :   my_putstr, write
+Makefile                :   yes
+
+
+	Write a program that takes a string, and transforms every lower case
+	letter to upper case, and every upper case to lower case. Other
+	characters remain unchanged.
+
+	This program writes the result on the standard output followed by '\n'.
+
+	If there is no parameter, write '\n'.
+
+Examples::
+(jog@almarita)./ulstr "L'eSPrit nE peUt plUs pRogResSer s'Il staGne et sI peRsIsT
+ent VAnIte et auto-justification." | cat -e
+l'EspRIT Ne PEuT PLuS PrOGrESsER S'iL STAgNE ET Si PErSiStENT vaNiTE ET AUTO-JUS
+TIFICATION.$
+(jog@almarita)
+
+(jog@almarita)./ulstr "S'enTOuRer dE sECreT eSt uN sIGnE De mAnQuE De coNNaiSSanC
+e.  " | cat -e
+s'ENtoUrER De SecREt EsT Un SigNe dE MaNqUe dE COnnAIssANcE.  $
+
+(jog@almarita)./ulstr "3:21 Ba  tOut  moUn ki Ka di KE m'en Ka fe fot" | cat -e
+3:21 bA  ToUT  MOuN KI kA DI ke M'EN kA FE FOT$
+(jog@almarita)
+
+(jog@almarita)./ulstr | cat -e
+$
+(jog@almarita)
