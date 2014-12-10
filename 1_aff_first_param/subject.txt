@@ -1,0 +1,62 @@
+------------------- ******** -------------------
+
+Exercice 3 : aff_first_param
+________________________
+Nom du fichier          :       aff_first_param.c
+Nom du repertoire       :       ex_3
+Temps de realisation    :       30 minutes.
+Fonctions autorisee     :       my_putchar
+Compilation             :       cc -o aff_first_param aff_first_param.c
+
+
+	Vous devez ecrire un programme qui affiche uniquement le premier
+	argument qui lui est fourni suivi d'un \n.
+	Si aucun argument n'est fourni, vous devez afficher uniquement \n.
+
+	Le fichier aff_first_param.c contiendra le main et tout ce qu'il faut
+	(notament la fonction my_putchar, my_putstr)
+
+	ATTENTION le programme sera compile comme :
+	cc -o aff_first_param aff_first_param.c
+
+
+(jog@almarita)./aff_first_param bonjour les users
+bonjour
+(jog@almarita)./aff_first_param
+
+(jog@almarita)./aff_first_param 5 4 3 2 1 | cat -e
+5$
+(jog@almarita)./aff_first_param | cat -e
+$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 3 : aff_first_param
+________________________
+File name               :       aff_first_param.c
+Directory name          :       ex_3
+Suggested time          :       30 minutes.
+Allowed functions       :       my_putchar
+Compilation             :       cc -o aff_first_param aff_first_param.c
+
+
+	You must write a program that displays only the first argument
+	given to it followed by a \n.
+	If no arguments are given, you must display only \n.
+
+	The aff_first_param.c file will contain the main and everything
+	needed (including my_putchar, my_putstr)
+
+	CAUTION : The program will be compiled like so :
+	cc -o aff_first_param aff_first_param.c
+
+
+(jog@almarita)./aff_first_param hello users
+hello
+(jog@almarita)./aff_first_param
+
+(jog@almarita)./aff_first_param 5 4 3 2 1 | cat -e
+5$
+(jog@almarita)./aff_first_param | cat -e
+$
+(jog@almarita)
+
