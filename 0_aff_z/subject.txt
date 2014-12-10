@@ -1,0 +1,69 @@
+------------------- ******** -------------------
+
+Exercice 1 : aff_z
+_______________________
+Nom de l'executable     :       aff_z
+Nom du repertoire       :       ex_1
+temps de realisation    :       30 minutes.
+Fonction autorisee      :       my_putchar
+
+        Ecrire un programme qui prend en parametre une chaine de caracteres
+	        et qui affiche sur la sortie standard le premier caractere 'z'
+		   rencontre suivi de '\n'. Si aucun 'z' n'est rencontre dans la chaine,
+		   	     le programme affiche 'z' suivi '\n'. Si il n'y a pas de parametre
+			     	alors le programme affiche 'z' suivie '\n'.
+
+
+exemple 1:
+(jog@almarita)./aff_z "abc"
+z
+(jog@almarita)
+
+exemple 2:
+(jog@almarita) ./aff_z "  Chiche A POal " | cat -e
+z$
+(jog@almarita)
+
+exemple 3:
+(jog@almarita) ./aff_z " AkjhZ zLKIJz , 23y"
+z
+(jog@almarita)
+
+exemple 4:
+(jog@almarita) ./aff_z | cat -e
+z$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 1 : aff_z
+_______________________
+Executable name         :       aff_z
+Directory name          :       ex_1
+Suggested time          :       30 minutes.
+Allowed functions       :       my_putchar
+
+        Write a program that takes a string as parameter and displays
+	      on the standard output the first 'z' character encountered followed
+	      	 by a '\n'. If no 'z' is encountered in the string, the program
+		         displays 'z' followed by '\n'. If there are no parameters, the
+			 	  program displays 'z' followed by '\n'.
+
+
+example 1:
+(jog@almarita)./aff_z "abc"
+z
+(jog@almarita)
+
+example 2:
+(jog@almarita) ./aff_z "  Chiche A POal " | cat -e
+z$
+(jog@almarita)
+
+example 3:
+(jog@almarita) ./aff_z " AkjhZ zLKIJz , 23y"
+z
+(jog@almarita)
+
+example 4:
+(jog@almarita) ./aff_z | cat -e
+z$
+(jog@almarita)
