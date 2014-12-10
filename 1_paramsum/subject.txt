@@ -1,0 +1,58 @@
+------------------- ******** -------------------
+
+Exercice 1  : paramsum
+________________________
+Nom du fichier          :       paramsum
+Nom de repertoire       :       ex_1
+Temps de realisation    :       5 minutes.
+Compilation             :       cc -o paramsum paramsum.c
+
+
+	Ecrire un programme qui affiche le nombre d'argument passes en
+	parametre au programme, suivi d'un '\n'.
+	Si aucun argument n'est passe, vous afficherez '0', suivis d' un '\n'.
+
+
+exemple 1:
+(jog@almarita)./paramsum 1 2 3 5 7 24
+6
+(jog@almarita)
+
+exemple 2:
+(jog@almarita)./paramsum 6 12 24 | cat -e
+3$
+(jog@almarita)
+
+exemple 3:
+(jog@almarita)./paramsum | cat -e
+0$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 1  : paramsum
+________________________
+File name               :       paramsum
+Directory name          :       ex_1
+Suggested time          :       5 minutes.
+Compilation             :       cc -o paramsum paramsum.c
+
+
+	Write a program that displays the number of parameters of the program,
+	followed by a '\n'.
+	If no parameters are passed, you will display '0', followed by a '\n'.
+
+
+Example 1:
+(jog@almarita)./paramsum 1 2 3 5 7 24
+6
+(jog@almarita)
+
+Example 2:
+(jog@almarita)./paramsum 6 12 24 | cat -e
+3$
+(jog@almarita)
+
+Example 3:
+(jog@almarita)./paramsum | cat -e
+0$
+(jog@almarita)
+
