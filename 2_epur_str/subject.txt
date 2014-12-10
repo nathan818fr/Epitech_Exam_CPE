@@ -1,0 +1,70 @@
+------------------- ******** -------------------
+
+Exercice 5 : epur_str
+_______________________
+Nom de l'executable     :       epur_str
+repertoire              :       ex_5
+executable              :       epur_str
+temps de realisation    :       30 minutes.
+Fonction autorisee      :       my_putchar, my_putnbr, my_putstr.
+Makefile                :       oui
+
+
+	Ecrire un programme qui prend en parametre une chaine de caracteres
+	et qui affiche les mots separes par un seul espace.
+	Le dernier mot sera suivi d'un '\n' (meme s'il y en a aucun).
+	Il ne devra y avoir d'espace ni avant le premier n'y apres le dernier
+	mot.
+	On appel "mot" une chaine de caractere separee par soit des espaces et
+	tabulations, soit le debut de la chaine ou la fin de la chaine.
+
+	Si aucun parametre n'est transmis, epur_str affiche '\n'.
+
+
+Exemples:
+
+(jog@almarita)./epur_str "abc cba abc cab cba" | cat -e
+abc cba abc cab cba$
+(jog@almarita)
+
+(jog@almarita)./epur_str "   Remus   et   Romulus    sont  les deux mamelles de Rome  " | cat -e
+Remus et Romulus sont les deux mamelles de Rome$
+(jog@almarita)
+
+(jog@almarita)./epur_str | cat -e
+$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 5 : epur_str
+_______________________
+Executable name     :   epur_str
+Directory name      :   ex_5
+Suggested time      :   30 minutes.
+Allowed functions   :   my_putchar, my_putnbr, my_putstr.
+Makefile            :   yes
+
+
+	Write a program that takes a string and displays the words
+	separated by a single space.
+	The last word will be followed by a '\n' (even if there is none).
+	There will be no spaces before the first or after the last word.
+	A word is a string separated by either spaces or tabulations,
+	or the start or the end of the string.
+
+	If there are no parameters, epur_str displays '\n'.
+
+
+Examples:
+
+(jog@almarita)./epur_str "abc cba abc cab cba" | cat -e
+abc cba abc cab cba$
+(jog@almarita)
+
+(jog@almarita)./epur_str "   Remus   et   Romulus    sont  les deux mamelles de Rome  " | cat -e
+Remus et Romulus sont les deux mamelles de Rome$
+(jog@almarita)
+
+(jog@almarita)./epur_str | cat -e
+$
+(jog@almarita)
+
