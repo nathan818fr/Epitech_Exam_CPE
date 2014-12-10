@@ -1,0 +1,86 @@
+------------------- ******** -------------------
+
+Exercice 4 : infin_add
+_______________________
+Nom de l'executable  :          infin_add
+Nom du repertoire    :          ex_4
+Temps de realisation :          30 minutes.
+Fonction autorisee   :          malloc, free, my_putstr, my_putchar, write
+Makefile             :          oui
+Langage              :          C
+
+
+	Il s'agit de realiser un programme qui effectue une addition
+	infinie. Ce programme prend en parametre deux chaines de carateres
+	et ecrit une chaine de caractere qui est le resultat de l'operation
+	en sortie standard.
+
+	Il y a deux chaines passees en parametre.
+	Ces trois chaines sont des nombres, la chaine affichee est le resultat
+	de l'addition entre les deux chaines.
+	Le resultat sera suivi d'un '\n'.
+	Les nombres negatifs doivent etre precedes du signe "-".
+	Le resultat doit etre affiche sans espace. Aucun zero ne doit
+	preceder le nombre affiche.
+
+	Un nombre negatif doit etre precede d'un et d'un seul signe.
+
+	Tous les parametres seront bien formates.
+
+
+exemple 1:
+> ./infin_add "879879087" "67548976597" | cat -e
+68428855684$
+>
+
+exemple 2:
+> ./infin_add "-876435" "987143265" | cat -e
+986266830$
+>
+
+exemple 3
+> ./infin_add "-807965" "-34532" | cat -e
+-842497
+>
+-------------------------------------------------------------------------------
+Exercise 4 : infin_add
+_______________________
+Executable name      :          infin_add
+Directory name       :          ex_4
+Suggested time       :          30 minutes.
+Allowed functions    :          malloc, free, my_putstr, my_putchar, write
+Makefile             :          yes
+Language             :          C
+
+
+	You have to write a program that does an infinite addition.
+	This program takes two strings and writes a string representing
+	the result of the addition on the standard output.
+
+	There are two strings as parameters.
+	Both are numbers. The displayed string is the result of the addition
+	of both these strings.
+	The result will be followed by '\n'.
+	Negative numbers have to be preceded by a '-'.
+	The result must be displayed without spaces. No zeroes can precede
+	the result.
+
+	A negative number will be preceded by one and only one '-' sign.
+
+	All parameters are valid.
+
+
+Example 1:
+> ./infin_add "879879087" "67548976597" | cat -e
+68428855684$
+>
+
+Example 2:
+> ./infin_add "-876435" "987143265" | cat -e
+986266830$
+>
+
+Example 3
+> ./infin_add "-807965" "-34532" | cat -e
+-842497
+>
