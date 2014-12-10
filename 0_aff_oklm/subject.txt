@@ -1,0 +1,39 @@
+------------------- ******** -------------------
+
+Exercice 1 : aff_oklm
+_______________________
+Nom de l'executable     :       aff_oklm
+Nom du repertoire       :       ex_1
+temps de realisation    :       30 minutes.
+Fonction autorisee      :       my_putchar, my_putstr
+
+	Ecrire un programme qui affiche "OKLM\n" sur la sortie standard.
+
+exemple 1:
+(nathan.poirier@oklm) ./aff_oklm
+OKLM
+(nathan.poirier@oklm)
+
+exemple 2:
+(nathan.poirier@oklm) ./aff_oklm | cat -e
+OKLM$
+(nathan.poirier@oklm)
+-------------------------------------------------------------------------------
+Exercise 1 : aff_oklm
+_______________________
+Executable name         :       aff_oklm
+Directory name          :       ex_1
+Suggested time          :       30 minutes.
+Allowed functions       :       my_putchar, my_putstr
+
+	Write a program that displays "OKLM\n" on the standard output.
+
+example 1:
+(nathan.poirier@oklm) ./aff_oklm
+OKLM
+(nathan.poirier@oklm)
+
+example 2:
+(nathan.poirier@oklm) ./aff_oklm | cat -e
+OKLM$
+(nathan.poirier@oklm)
