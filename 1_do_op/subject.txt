@@ -1,0 +1,81 @@
+------------------- ******** -------------------
+
+Exercice 3 : do_op
+_______________________
+Nom de l'executable  :          do_op
+Nom du repertoire    :          ex_3
+temps de realisation :          30 minutes.
+Fonction autorisee   :          atoi, printf
+Makefile             :          oui
+
+	Il s'agit d'ecrire un programme qui prend en parametre trois chaine de
+	caracteres:
+
+	- La premiere chaine de caracteres est la representation en base 10
+	d'un entier signe.
+	- La deuxieme chaine de caracteres est un operateur
+	- La troisieme chaine de carateres est la representation en base 10
+	d'un entier signe.
+
+	Et qui affiche la representation en base 10 du resultat
+	de cette arithmetique suivi d'un '\n'
+
+	On considere que les chaines de caracteres ne contiennent aucune erreur
+	Les operateurs a gerer sont:  + - * / %
+
+	Le programme doit revoyer un '\n' si il n'y a pas le bon nombre de
+	parametres.
+
+
+exemple 1:
+(jog@almarita)./do_op "123" "*" 456 | cat -e
+56088$
+(jog@almarita)
+
+exemple 2:
+(jog@almarita)./do_op "9828" "/" 234 | cat -e
+42$
+(jog@almarita)
+
+exemple 3:
+(jog@almarita)./do_op | cat -e
+$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 3 : do_op
+_______________________
+Executable name      :          do_op
+Directory name       :          ex_3
+Suggested time       :          30 minutes.
+Allowed functions    :          atoi, printf
+Makefile             :          oui
+
+	You have to write a program that takes three strings:
+
+	- The first one is the representation of a signed integer in base 10
+        - The second one is an operator
+	- The third one is the representation of a signed integer in base 10
+
+	It displays the representation, in base 10, of the result of this
+	operation followed by a '\n'
+
+	We consider that the strings contain no errors.
+	Operators you must handle are: + - * / %
+
+	The program must return a '\n' if the parameter count is wrong.
+
+
+Example 1:
+(jog@almarita)./do_op "123" "*" 456 | cat -e
+56088$
+(jog@almarita)
+
+Example 2:
+(jog@almarita)./do_op "9828" "/" 234 | cat -e
+42$
+(jog@almarita)
+
+Example 3:
+(jog@almarita)./do_op | cat -e
+$
+(jog@almarita)
