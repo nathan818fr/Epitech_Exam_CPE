@@ -1,0 +1,82 @@
+------------------- ******** -------------------
+
+Exercice 5 : s_p
+__________________________
+
+Nom du fichier          :          result
+Nom du repertoire       :          ex_5
+temps de realisation    :          30 minutes.
+
+
+	Exemple de 1 a 10
+	1  :  1
+	2  :  2  1
+	3  :  3 10  5 16 8 4 2 1
+	4  :  4  2  1
+	5  :  5 16  8  4  2  1
+	6  :  6  3 10  5 16  8  4  2  1
+	7  :  7 22 11 34 17 52 26 13 40 20 10  5 16 8  4 2 1
+	8  :  8  4  2  1
+	9  :  9 28 14  7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
+	10 : 10  5 16  8  4  2 1
+
+	Il s'agit de rendre un fichier dans lequel figure la longueur des
+	suites de 1 a 100 inclus.
+
+	Le fichier aura pour nom result.
+	Dans le fichier vous devez mettre 'n' et le nombre d'element de la
+	suite separe par un seul espace.
+
+	Exemple de qui doit figurer dans le fichier:
+	$ cat -e result
+	1 1$
+	2 2$
+	3 8$
+	4 3$
+	5 6$
+	6 9$
+	7 17$
+	8 4$
+	9 20$
+	10 7$
+
+-------------------------------------------------------------------------------
+Exercise 5 : s_p
+__________________________
+
+File name               :          result
+Directory name          :          ex_5
+Suggested time          :          30 minutes.
+
+	Example from 1 to 10
+	1  :  1
+	2  :  2  1
+	3  :  3 10  5 16 8 4 2 1
+	4  :  4  2  1
+	5  :  5 16  8  4  2  1
+	6  :  6  3 10  5 16  8  4  2  1
+	7  :  7 22 11 34 17 52 26 13 40 20 10  5 16 8  4 2 1
+	8  :  8  4  2  1
+	9  :  9 28 14  7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
+	10 : 10  5 16  8  4  2  1
+
+	You have to turn in a file in which is the length of the series
+	from 1 to 100 included.
+
+	The file name will be result.
+	In the file you will put 'n' and the number of elements of the
+	series separated by a single space.
+	
+	Example of what should be in the file:
+	$ cat -e result
+	1 1$
+	2 2$
+	3 8$
+	4 3$
+	5 6$
+	6 9$
+	7 17$
+	8 4$
+	9 20$
+	10 7$
+
