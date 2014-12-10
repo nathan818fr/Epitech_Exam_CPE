@@ -1,0 +1,53 @@
+------------------- ******** -------------------
+Exercice 2 : maff_alpha
+------------------------
+Nom du fichier C        :       maff_alpha.c
+Nom du repertoire       :       ex_2
+Temps de realisation    :       20 minutes.
+Fonctions autorisee     :       my_putchar
+Compilation             :       cc -o maff_alpha maff_alpha.c
+
+
+	Ecrire un programme qui affiche l'alphabet une lettre sur 2
+	en minuscule, une lettre sur 2 en majuscule. (voir exemple)
+
+	Le fichier maff_alpha.c contiendra le main et tout ce qu'il faut
+	(notament la fonction my_putchar)
+
+	ATTENTION le programme sera compile comme :
+		cc -o maff_alpha maff_alpha.c
+
+
+exemple :
+(jog@almarita)./maff_alpha
+aBcDeFgHiJkLmNoPqRsTuVwXyZ
+(jog@almarita)./maff_alpha | cat -e
+aBcDeFgHiJkLmNoPqRsTuVwXyZ$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 2 : maff_alpha
+------------------------
+C file name             :       maff_alpha.c
+Directory name          :       ex_2
+Suggested time          :       20 minutes.
+Allowed functions       :       my_putchar
+Compilation             :       cc -o maff_alpha maff_alpha.c
+
+
+	Write a program that displays the alphabet, one letter in
+	lowercase, one in uppercase, etc ... (see example)
+
+	The maff_alpha.c will contain the main and everything needed
+	(including my_putchar)
+
+	CAUTION: the program will be compiled as follows:
+		 cc -o maff_alpha maff_alpha.c
+
+
+Example :
+(jog@almarita)./maff_alpha
+aBcDeFgHiJkLmNoPqRsTuVwXyZ
+(jog@almarita)./maff_alpha | cat -e
+aBcDeFgHiJkLmNoPqRsTuVwXyZ$
+(jog@almarita)
+
