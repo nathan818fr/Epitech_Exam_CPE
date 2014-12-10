@@ -1,0 +1,101 @@
+------------------- ******** -------------------
+
+Exercice 8 : hidenp
+__________________________
+
+Nom de l'executable  :          hidenp
+Nom du repertoire    :          ex_8
+temps de realisation :          15 minutes
+Fonctions autorisees :          write
+Makefile             :          oui
+
+
+	Ecrire un programme qui prend en parametres deux chaines de
+	caracteres et qui affiche:
+	1 suivi de '\n',
+	si la chaine du premier parametre est cachee dans la deuxieme chaine.
+	Sinon il affichera:
+	0 suivi de '\n'.
+	Soit s1 et s2 des chaine de caracteres.
+	On dit que la chaine s1 est cachee dans la chaine s2 si on peut
+	trouver chaque caractere de s1 dans s2 et ce dans le meme ordre que
+	dans s1.
+
+	Ainsi:
+		"fgex.;" est cachee dans "tyf34gdgf;'ektufjhgdgex.;.;rtjynur6"
+		"abc" est cachee dans "2altrb53c.sse"
+		"abc"  n'est pas cachee dans "btarc"
+
+	Si il n'y a pas deux parametres, le programme affiche '\n'.
+
+
+exemple 1:
+(jog@almarita)./hidenp padinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+1$
+(jog@almarita)
+
+
+exemple 2:
+(jog@almarita)./hidenp ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+0$
+(jog@almarita)
+
+
+exemple 3:
+(jog@almarita)./hidenp "rien" "cette phrase ne cache rien" | cat -e
+1$
+
+exemple 4:
+(jog@almarita)./hidenp | cat -e
+$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 8 : hidenp
+__________________________
+
+Executable name      :          hidenp
+Directory name       :          ex_8
+Suggested time       :          15 minutes
+Allowed functions    :          write
+Makefile             :          yes
+
+
+	Write a program that takes two strings and displays:
+	1 followed by '\n' is the first string is hidden in
+	the second string,
+	otherwise 0 followed by '\n'.
+
+	Let s1 and s2 be strings.
+	s1 is hidden in s2 if each character from s1 can be found in s2,
+	in the same order as in s1.
+
+	So:
+		"fgex.;" is hidden in "tyf34gdgf;'ektufjhgdgex.;.;rtjynur6"
+		"abc" is hidden in "2altrb53c.sse"
+		"abc" is not hidden in "btarc"
+
+	If there isn't two parameters, the program displays '\n'.
+
+
+Example 1:
+(jog@almarita)./hidenp padinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+1$
+(jog@almarita)
+
+
+Example 2:
+(jog@almarita)./hidenp ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+0$
+(jog@almarita)
+
+
+Example 3:
+(jog@almarita)./hidenp "rien" "cette phrase ne cache rien" | cat -e
+1$
+
+
+Example 4:
+(jog@almarita)./hidenp | cat -e
+$
+(jog@almarita)
+
