@@ -1,0 +1,101 @@
+------------------- ******** -------------------
+
+Exercice 5 : str_maxlenoc
+__________________________
+
+Nom de l'executable  :          str_maxlenoc
+Nom du repertoire    :          ex_5
+Temps de realisation :          30 minutes.
+Fonction autorisee   :          printf, write, malloc, free.
+Makefile             :          oui.
+
+
+	Ecrire le programme str_maxlenoc qui prend en parametres n chaines
+	de caracteres et qui affiche, suivi d'un '\n', la plus grande
+	chaine de caracteres incluse dans toutes les chaines passees en
+	parametres.
+	Si plusieurs chaines correspondent, on affichera celle qui apparait en
+	premier dans le premier parametre.
+
+	"" est forcement dans toutes les chaines.
+
+	Si aucun parametre n'est transmis, str_maxlenoc affiche '\n'.
+
+	On dit que A est inclus dans B avec A et B des chaines de
+	caracteres si A est une sous-chaine de B ou si A et B sont identiques.
+
+
+exemple 1:
+(jog@almarita)./str_maxlenoc ab bac abacabccabcb
+a
+(jog@almarita)
+
+exemple 2:
+(jog@almarita)./str_maxlenoc bonjour salut bonjour bonjour
+u
+(jog@almarita)
+
+exemple 3:
+(jog@almarita)./str_maxlenoc xoxAoxo xoxAox  oxAox oxo  A ooxAoxx oxooxo Axo
+
+(jog@almarita)
+
+exemple 4:
+(jog@almarita)./str_maxlenoc bosdsdfnjodur atehhellosd afkuonjosurafg headfgllosf fghellosag afdfbosnjou\
+rafg
+os
+(jog@almarita)
+
+exemple 5:
+(jog@almarita)./str_maxlenoc | cat -e
+$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 5 : str_maxlenoc
+__________________________
+
+Executable name      :          str_maxlenoc
+Directory name       :          ex_5
+Suggested time       :          30 minutes.
+Allowed functions    :          printf, write, malloc, free.
+Makefile             :          yes
+
+
+	Write the str_maxlenoc program that takes n strings and displays,
+	followed by a '\n', the longest string present in every parameter.
+	If multiple strings match, display the one that appears first in the
+	first parameter.
+
+	"" is in every parameter.
+
+	If there are no parameters, display '\n'.
+
+	A is included in B with A and B strings if A is a substring of B or
+	A and B are identical.
+
+
+Example 1:
+(jog@almarita)./str_maxlenoc ab bac abacabccabcb
+a
+(jog@almarita)
+
+Example 2:
+(jog@almarita)./str_maxlenoc bonjour salut bonjour bonjour
+u
+(jog@almarita)
+
+Example 3:
+(jog@almarita)./str_maxlenoc xoxAoxo xoxAox  oxAox oxo  A ooxAoxx oxooxo Axo
+
+(jog@almarita)
+
+Example 4:
+(jog@almarita)./str_maxlenoc bosdsdfnjodur atehhellosd afkuonjosurafg headfgllosf fghellosag afdfbosnjou\
+rafg
+os
+(jog@almarita)
+
+Example 5:
+(jog@almarita)./str_maxlenoc | cat -e
+$
+(jog@almarita)
