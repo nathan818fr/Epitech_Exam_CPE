@@ -1,0 +1,74 @@
+------------------- ******** -------------------
+
+Exercice 4 : rostring
+_______________________
+Nom de l'executable  :          rostring
+Nom du repertoire    :          ex_4
+Temps de realisation :          20 minutes.
+Fonction autorisee   :          my_putchar.
+Makefile             :          oui
+
+
+	Ecrire un programme qui prend en parametres une chaine de caracteres
+	et qui affiche cette chaine en procedant a une rotation de celle-ci
+	de droite a gauche.
+	Ainsi le premier mot se retrouve le dernier et l'ordre des autres
+	n'est pas modifies.
+	Les mots sont des chaines de caracteres separees par des espaces et/ou
+	des tabulations.
+	Les mots sont affiches separes par un seul et
+	unique espace.
+	L'affichage sera suivie d'un \n.
+
+
+exemple 1:
+(jog@almarita) ./rostring "abc   " | cat -e
+abc$
+(jog@almarita)
+
+exemple 2:
+(jog@almarita) ./rostring "Que la      lumiere soit et la lumiere fut"
+la lumiere soit et la lumiere fut Que
+(jog@almarita)
+
+exemple 3:
+(jog@almarita) ./rostring | cat -e
+$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 4 : rostring
+_______________________
+Executable name      :          rostring
+Directory name       :          ex_4
+Suggested time       :          20 minutes.
+Allowed functions    :          my_putchar.
+Makefile             :          yes
+
+
+	Write a program that takes a string and displays it after doing
+	a right to left rotation.
+	So, the first word becomes the last and the order of the words is
+	not modified.
+	Words are strings separated by spaces or tabulations.
+	Words will be displayed separated by only one space.
+	The output will be followed by a '\n'.
+
+
+Example 1:
+(jog@almarita) ./rostring "abc   " | cat -e
+abc$
+(jog@almarita)
+
+Example 2:
+(jog@almarita) ./rostring "Que la      lumiere soit et la lumiere fut"
+la lumiere soit et la lumiere fut Que
+(jog@almarita)
+
+Example 3:
+(jog@almarita) ./rostring "     AkjhZ zLKIJz , 23y"
+zLKIJz , 23y AkjhZ
+(jog@almarita)
+
+Example 3:
+(jog@almarita) ./rostring | cat -e
+$
