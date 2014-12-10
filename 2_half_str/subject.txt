@@ -1,0 +1,95 @@
+------------------- ******** -------------------
+
+Exercice 4  : half_str
+________________________
+Nom de l'executable     :       half_str
+Nom du repertoire       :       ex_4
+Temps de realisation    :       15 minutes
+Language                :       C
+Fonction autorisee      :       my_putchar, my_strlen, my_putstr, write
+Makefile                :       obligatoire
+
+
+	Ecrire un programme qui prend en parametre une ou plusieurs chaines
+	de caracteres et qui affiche chaque chaine un caractere sur deux.
+
+	Si plusieurs chaines sont passees en parametres, le programme
+	affiche '\n' apres chaque chaine.
+
+	L'affichage se termine toujours par un '\n'.
+
+	Si aucun parametre n'est transmis, le programme affiche '\n'.
+
+exemple 1:
+> ./half_str "abc"
+ac
+>
+
+exemple 2:
+> ./half_str "test de phrase" "deuxieme test" "un avant dernier test" "" "enfin c'est finis" | cat -e
+ts eprs$
+duim et$
+u vn ene et$
+$
+efncetfns$
+>
+
+exemple 3:
+> ./half_str "a btcfdceqf gehdiajikhllmgnaovpyqer srttuuvawcxayaz" "142637415869728395" "          " "Ba\
+odnxnce   cshja4nycrew qaq dtdoduqsq" | cat -e
+abcdefghijklmnopqrstuvwxyz$
+123456789$
+$
+Bonne chance a tous$
+>
+
+exemple 3:
+> ./half_str | cat -e
+$
+>
+-------------------------------------------------------------------------------
+Exercise 4  : half_str
+________________________
+Executable name         :       half_str
+Directory name          :       ex_4
+Suggested time          :       15 minutes
+Language                :       C
+Allowed functions       :       my_putchar, my_strlen, my_putstr, write
+Makefile                :       yes
+
+        Write a program that takes one or more strings and displays each
+	string's odd characters.
+
+        If multiple strings are passed, the program displays '\n' after each.
+
+        The output is always finished by a '\n'.
+
+        If no parameters are passed, the program displays '\n'.
+
+
+Example 1:
+> ./half_str "abc"
+ac
+>
+
+Example 2:
+> ./half_str "test de phrase" "deuxieme test" "un avant dernier test" "" "enfin c'est finis" | cat -e
+ts eprs$
+duim et$
+u vn ene et$
+$
+efncetfns$
+>
+Example 3:
+> ./half_str "a btcfdceqf gehdiajikhllmgnaovpyqer srttuuvawcxayaz" "142637415869728395" "          " "Ba\
+odnxnce   cshja4nycrew qaq dtdoduqsq" | cat -e
+abcdefghijklmnopqrstuvwxyz$
+123456789$
+     $
+     Bonne chance a tous$
+     >
+
+Example 3:
+> ./half_str | cat -e
+$
+>
