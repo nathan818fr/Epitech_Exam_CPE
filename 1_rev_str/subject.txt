@@ -1,0 +1,72 @@
+------------------- ******** -------------------
+
+Exercice 3 : rev_str
+__________________________
+Nom de l'executable     :       rev_str
+Nom du repertoire       :       ex_3
+Language                :       C
+Temps de realisation    :       15 minutes
+Fonctions autorisees    :       my_putchar
+Makefile                :       oui
+
+
+	Ecrire un programme qui prend en parametre une chaine de caractere
+	et qui affiche cette chaine en inversant toute les lettres de la
+	chaine.
+	Si aucun parametre n'est transmis, ce programme affiche '\n' .
+
+
+exemple 1:
+(jog@almarita)./rev_str "bonjour nina la fleur" | cat -e
+ruelf al anin ruojnob$
+(jog@almarita)
+
+exemple 2:
+(jog@almarita)./rev_str "soline et josephine s'aiment beaucoup" | cat -e
+puocuaeb tnemia's enihpesoj te enilos$
+(jog@almarita)
+
+
+(jog@almarita)./rev_str "moche est quand meme tres moche" | cat -e
+ehcom sert emem dnauq tse ehcom$
+(jog@almarita)
+
+exemple 2:
+(jog@almarita)./rev_str | cat -e
+$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 3 : rev_str
+__________________________
+Executable name         :       rev_str
+Directory name          :       ex_3
+Language                :       C
+Suggested time          :       15 minutes
+Allowed functions       :       my_putchar
+Makefile                :       yes
+
+
+	Write a program that takes a string and displays it after
+	reversing all its characters.
+	If no parameter is passed, the program displays '\n'.
+
+
+Example 1:
+(jog@almarita)./rev_str "bonjour nina la fleur" | cat -e
+ruelf al anin ruojnob$
+(jog@almarita)
+
+Example 2:
+(jog@almarita)./rev_str "soline et josephine s'aiment beaucoup" | cat -e
+puocuaeb tnemia's enihpesoj te enilos$
+(jog@almarita)
+
+Example 3:
+(jog@almarita)./rev_str "moche est quand meme tres moche" | cat -e
+ehcom sert emem dnauq tse ehcom$
+(jog@almarita)
+
+Example 4:
+(jog@almarita)./rev_str | cat -e
+$
+(jog@almarita)
