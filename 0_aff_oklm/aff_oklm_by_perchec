@@ -1,0 +1,14 @@
+void  my_putchar(char c)
+{
+  write(1, &c, 1);
+}
+
+int main()
+{
+  my_putchar('o');
+  my_putchar('k');
+  my_putchar('l');
+  my_putchar('m');
+  my_putchar('\n');
+}
+  
