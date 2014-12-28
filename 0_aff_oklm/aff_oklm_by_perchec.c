@@ -10,5 +10,6 @@ int main()
   my_putchar('l');
   my_putchar('m');
   my_putchar('\n');
+  return (0);
 }
   
